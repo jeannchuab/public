@@ -31,7 +31,7 @@ class MovieManager {
         moviesSeenArray.append(checkedMovie)
     }
     
-    func checkedOffMovieAtIndex(index: Int)  -> Movie {
+    func checkedOffMovieAtIndex(index: Int) -> Movie {
         return moviesSeenArray[index]
     }
     

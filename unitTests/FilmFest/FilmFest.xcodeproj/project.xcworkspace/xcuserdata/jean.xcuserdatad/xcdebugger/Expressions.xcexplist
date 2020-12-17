@@ -3,6 +3,20 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "MovieLibraryDataServiceTests.testCell_Selection_ShouldCheckOffSelectedMovie():MovieLibraryDataServiceTests.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "libraryTableView.delegate">
+            </PersistentString>
+            <PersistentString
+               value = "libraryTableView.delegate?.tableView">
+            </PersistentString>
+            <PersistentString
+               value = "sut.movieManager?.moviesToSeeCount">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "MovieManager.addMovie(movie:):MovieManager.swift">
          <PersistentStrings>
             <PersistentString
@@ -15,6 +29,14 @@
          <PersistentStrings>
             <PersistentString
                value = "sut">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MovieLibraryDataServiceTests.testTableViewSections_SectionOne_ReturnsMoviesToSeeCount():MovieLibraryDataServiceTests.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "libraryTableView.numberOfRows(inSection: 0)">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
