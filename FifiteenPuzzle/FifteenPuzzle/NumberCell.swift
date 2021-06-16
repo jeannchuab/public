@@ -3,7 +3,7 @@
 //  FifteenPuzzle
 //
 //  Created by Jeann Chuab on 14/06/2021.
-//  Copyright © 2019 Jeann Chuab. All rights reserved.
+//  Copyright © 2021 Jeann Chuab. All rights reserved.
 //
 
 import UIKit
