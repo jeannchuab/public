@@ -2,7 +2,7 @@
 
 ## Project definition
 
-The main goal of this project it's the implemantation of the 15 Puzzle
+The main goal of this project it's the implemantation of the 15 Puzzle for iOS devices, using swift language.
 
 From Wikipedia:
 
@@ -10,11 +10,16 @@ From Wikipedia:
 
 More information: https://en.wikipedia.org/wiki/15_puzzle
 
-## Functionalities
+## Tools
+ - Xcode
+ - Swift
+ - Storyboards
+ - Autolayout
+ - CollectionView
 
+## Functionalities
  - The user should be able to move the blocks into the blank space
  - The user should be able to reset the puzzle
-
 
 ## Previews
 
