@@ -2,7 +2,7 @@
 
 ## Project definition
 
-The main goal of this project it's implemantation of the 15 Puzzle
+The main goal of this project it's the implemantation of the 15 Puzzle
 
 From Wikipedia:
 
