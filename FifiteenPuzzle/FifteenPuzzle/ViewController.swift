@@ -24,7 +24,19 @@ class ViewController: UICollectionViewController {
         fillRandomData()
     }
     
+    @IBAction func actionClickToRestart(_ sender: Any) {
+        fillRandomData()
+        
+        UIView.transition(with: collectionView,
+                          duration: 0.7,
+                          options: .transitionCrossDissolve,
+                          animations: {
+                            self.collectionView.reloadData()
+                          })
+    }
+    
     func fillRandomData() {
+        data = []
         var interval: [Int] = []
         for index in 1...dimension*dimension {
             interval.append(index)
@@ -99,7 +111,7 @@ class ViewController: UICollectionViewController {
 
 extension ViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        let size = UIScreen.main.bounds.width * 0.22
+        let size = UIScreen.main.bounds.width * 0.20
         return CGSize(width: size, height: size)
     }
 }
