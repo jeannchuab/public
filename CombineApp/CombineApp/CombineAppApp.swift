@@ -14,6 +14,8 @@ struct CombineAppApp: App {
             ContentView()
                 .onAppear {
                     run()
+                    
+                    runWithCombine()
                 }
         }
     }
