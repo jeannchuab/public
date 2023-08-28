@@ -33,7 +33,7 @@ struct MoviesView: View {
             }
         }
         .onAppear {
-            viewModel.fetchInitialData()
+            viewModel.fetchInitialData_Version3()
         }
     }
 }
