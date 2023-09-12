@@ -106,5 +106,13 @@ final class MovieViewModel: ObservableObject {
                 Just([])
             })
             .assign(to: &$upcomingMovies) // The method "assign" was introduced on iOS 14. & means a inout parameter, we are modifing the parameter. $ because the movies is @Published
-    }                   
+    }
+    
+    class TestAsync {
+        func sayHello() async -> String {
+            print("")
+            
+            return ""
+        }
+    }
 }
