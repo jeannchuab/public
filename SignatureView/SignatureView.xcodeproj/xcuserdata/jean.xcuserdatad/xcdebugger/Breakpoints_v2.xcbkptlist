@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B6D88E18-AE8E-493F-845E-98B721C5FD2F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "44249F33-EA9D-4499-9620-E79985E814FA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignatureView/ImageSaver.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "saveCompleted(_:didFinishSavingWithError:contextInfo:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "44249F33-EA9D-4499-9620-E79985E814FA - ccae65dc1bccdcc5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SignatureView.ImageSaver.saveCompleted(_: __C.UIImage, didFinishSavingWithError: Swift.Optional&lt;Swift.Error&gt;, contextInfo: Swift.UnsafeRawPointer) -&gt; ()"
+                  moduleName = "SignatureView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jean/Projetos/jeannchuab/swift/SignatureView/SignatureView/ImageSaver.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "526">
+               </Location>
+               <Location
+                  uuid = "44249F33-EA9D-4499-9620-E79985E814FA - ccae65dc1bccdcc5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SignatureView.ImageSaver.saveCompleted(_: __C.UIImage, didFinishSavingWithError: Swift.Optional&lt;Swift.Error&gt;, contextInfo: Swift.UnsafeRawPointer) -&gt; ()"
+                  moduleName = "SignatureView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jean/Projetos/jeannchuab/swift/SignatureView/SignatureView/ImageSaver.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "133">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1C915C7B-CB78-4EDC-8629-D6D28AF8EFBE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignatureView/ImageSaver.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "writeToPhotoAlbum(image:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "79461CEC-CD1A-4C0B-B4A1-05B8593CC952"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UIImage+Extensions.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "createImageWithLabelOverlay(label:imageSize:image:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7732B319-8B0D-4317-8A83-38010F85A6F9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignatureView/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "addTextToImage(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7732B319-8B0D-4317-8A83-38010F85A6F9 - c8a565cb85a288c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SignatureView.ViewController.addTextToImage(Any) -&gt; ()"
+                  moduleName = "SignatureView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jean/Projetos/jeannchuab/swift/SignatureView/SignatureView/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "302">
+               </Location>
+               <Location
+                  uuid = "7732B319-8B0D-4317-8A83-38010F85A6F9 - c8a565cb85a288c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SignatureView.ViewController.addTextToImage(Any) -&gt; ()"
+                  moduleName = "SignatureView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jean/Projetos/jeannchuab/swift/SignatureView/SignatureView/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "509">
+               </Location>
+               <Location
+                  uuid = "7732B319-8B0D-4317-8A83-38010F85A6F9 - c8a565cb85a28b4d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SignatureView.ViewController.addTextToImage(Any) -&gt; ()"
+                  moduleName = "SignatureView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jean/Projetos/jeannchuab/swift/SignatureView/SignatureView/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  uuid = "7732B319-8B0D-4317-8A83-38010F85A6F9 - c8a565cb85a28b4d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SignatureView.ViewController.addTextToImage(Any) -&gt; ()"
+                  moduleName = "SignatureView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jean/Projetos/jeannchuab/swift/SignatureView/SignatureView/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "487">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
