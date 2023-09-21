@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  TesteNavigation
+//  NavigationBasics
 //
 //  Created by Jeann Luiz Chuab on 14/06/21.
 //

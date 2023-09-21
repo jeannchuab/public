@@ -14,12 +14,11 @@
 		95E55A4B2677ED4000F19231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E55A4A2677ED4000F19231 /* Assets.xcassets */; };
 		95E55A4E2677ED4000F19231 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E55A4C2677ED4000F19231 /* LaunchScreen.storyboard */; };
 		95E55A562678E62800F19231 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E55A552678E62800F19231 /* CustomViewController.swift */; };
-		95E55A582678E6AD00F19231 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E55A572678E6AD00F19231 /* File.swift */; };
 		95E55A5A2678E9EC00F19231 /* Custom.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E55A592678E9EC00F19231 /* Custom.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		95E55A3E2677ED3E00F19231 /* TesteNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesteNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95E55A3E2677ED3E00F19231 /* NavigationBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E55A412677ED3E00F19231 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95E55A432677ED3E00F19231 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		95E55A452677ED3E00F19231 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,7 +27,6 @@
 		95E55A4D2677ED4000F19231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95E55A4F2677ED4000F19231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95E55A552678E62800F19231 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
-		95E55A572678E6AD00F19231 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		95E55A592678E9EC00F19231 /* Custom.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Custom.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -46,7 +44,7 @@
 		95E55A352677ED3E00F19231 = {
 			isa = PBXGroup;
 			children = (
-				95E55A402677ED3E00F19231 /* TesteNavigation */,
+				95E55A402677ED3E00F19231 /* NavigationBasics */,
 				95E55A3F2677ED3E00F19231 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,34 +52,33 @@
 		95E55A3F2677ED3E00F19231 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				95E55A3E2677ED3E00F19231 /* TesteNavigation.app */,
+				95E55A3E2677ED3E00F19231 /* NavigationBasics.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		95E55A402677ED3E00F19231 /* TesteNavigation */ = {
+		95E55A402677ED3E00F19231 /* NavigationBasics */ = {
 			isa = PBXGroup;
 			children = (
 				95E55A412677ED3E00F19231 /* AppDelegate.swift */,
 				95E55A432677ED3E00F19231 /* SceneDelegate.swift */,
 				95E55A452677ED3E00F19231 /* ViewController.swift */,
 				95E55A552678E62800F19231 /* CustomViewController.swift */,
-				95E55A572678E6AD00F19231 /* File.swift */,
 				95E55A472677ED3E00F19231 /* Main.storyboard */,
 				95E55A592678E9EC00F19231 /* Custom.storyboard */,
 				95E55A4A2677ED4000F19231 /* Assets.xcassets */,
 				95E55A4C2677ED4000F19231 /* LaunchScreen.storyboard */,
 				95E55A4F2677ED4000F19231 /* Info.plist */,
 			);
-			path = TesteNavigation;
+			path = NavigationBasics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		95E55A3D2677ED3E00F19231 /* TesteNavigation */ = {
+		95E55A3D2677ED3E00F19231 /* NavigationBasics */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 95E55A522677ED4000F19231 /* Build configuration list for PBXNativeTarget "TesteNavigation" */;
+			buildConfigurationList = 95E55A522677ED4000F19231 /* Build configuration list for PBXNativeTarget "NavigationBasics" */;
 			buildPhases = (
 				95E55A3A2677ED3E00F19231 /* Sources */,
 				95E55A3B2677ED3E00F19231 /* Frameworks */,
@@ -91,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = TesteNavigation;
+			name = NavigationBasics;
 			productName = TesteNavigation;
-			productReference = 95E55A3E2677ED3E00F19231 /* TesteNavigation.app */;
+			productReference = 95E55A3E2677ED3E00F19231 /* NavigationBasics.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 95E55A392677ED3E00F19231 /* Build configuration list for PBXProject "TesteNavigation" */;
+			buildConfigurationList = 95E55A392677ED3E00F19231 /* Build configuration list for PBXProject "NavigationBasics" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				95E55A3D2677ED3E00F19231 /* TesteNavigation */,
+				95E55A3D2677ED3E00F19231 /* NavigationBasics */,
 			);
 		};
 /* End PBXProject section */
@@ -147,7 +144,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95E55A582678E6AD00F19231 /* File.swift in Sources */,
 				95E55A462677ED3E00F19231 /* ViewController.swift in Sources */,
 				95E55A422677ED3E00F19231 /* AppDelegate.swift in Sources */,
 				95E55A442677ED3E00F19231 /* SceneDelegate.swift in Sources */,
@@ -300,12 +296,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VHY8M3BHZD;
-				INFOPLIST_FILE = TesteNavigation/Info.plist;
+				INFOPLIST_FILE = NavigationBasics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jeannchuab.TesteNavigation;
+				PRODUCT_BUNDLE_IDENTIFIER = jeannchuab.NavigationBasics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,12 +315,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VHY8M3BHZD;
-				INFOPLIST_FILE = TesteNavigation/Info.plist;
+				INFOPLIST_FILE = NavigationBasics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jeannchuab.TesteNavigation;
+				PRODUCT_BUNDLE_IDENTIFIER = jeannchuab.NavigationBasics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -334,7 +330,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		95E55A392677ED3E00F19231 /* Build configuration list for PBXProject "TesteNavigation" */ = {
+		95E55A392677ED3E00F19231 /* Build configuration list for PBXProject "NavigationBasics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				95E55A502677ED4000F19231 /* Debug */,
@@ -343,7 +339,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		95E55A522677ED4000F19231 /* Build configuration list for PBXNativeTarget "TesteNavigation" */ = {
+		95E55A522677ED4000F19231 /* Build configuration list for PBXNativeTarget "NavigationBasics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				95E55A532677ED4000F19231 /* Debug */,

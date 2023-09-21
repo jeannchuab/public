@@ -1,6 +1,6 @@
 //
 //  CustomViewController.swift
-//  TesteNavigation
+//  NavigationBasics
 //
 //  Created by Jeann Luiz Chuab on 15/06/21.
 //
