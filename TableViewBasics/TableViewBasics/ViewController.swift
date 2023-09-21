@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  TableViewTest
+//  TableViewBasics
 //
 //  Created by Jeann Luiz Chuab on 17/05/21.
 //

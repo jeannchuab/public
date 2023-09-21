@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9585F8B826529A0000BD3B82 /* TableViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9585F8B826529A0000BD3B82 /* TableViewBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9585F8BB26529A0000BD3B82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9585F8BD26529A0000BD3B82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9585F8BF26529A0000BD3B82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		9585F8AF26529A0000BD3B82 = {
 			isa = PBXGroup;
 			children = (
-				9585F8BA26529A0000BD3B82 /* TableViewTest */,
+				9585F8BA26529A0000BD3B82 /* TableViewBasics */,
 				9585F8B926529A0000BD3B82 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		9585F8B926529A0000BD3B82 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9585F8B826529A0000BD3B82 /* TableViewTest.app */,
+				9585F8B826529A0000BD3B82 /* TableViewBasics.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9585F8BA26529A0000BD3B82 /* TableViewTest */ = {
+		9585F8BA26529A0000BD3B82 /* TableViewBasics */ = {
 			isa = PBXGroup;
 			children = (
 				9585F8CF26529AA600BD3B82 /* TableViewCell */,
@@ -69,7 +69,7 @@
 				9585F8C626529A0300BD3B82 /* LaunchScreen.storyboard */,
 				9585F8C926529A0300BD3B82 /* Info.plist */,
 			);
-			path = TableViewTest;
+			path = TableViewBasics;
 			sourceTree = "<group>";
 		};
 		9585F8CF26529AA600BD3B82 /* TableViewCell */ = {
@@ -84,9 +84,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9585F8B726529A0000BD3B82 /* TableViewTest */ = {
+		9585F8B726529A0000BD3B82 /* TableViewBasics */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9585F8CC26529A0300BD3B82 /* Build configuration list for PBXNativeTarget "TableViewTest" */;
+			buildConfigurationList = 9585F8CC26529A0300BD3B82 /* Build configuration list for PBXNativeTarget "TableViewBasics" */;
 			buildPhases = (
 				9585F8B426529A0000BD3B82 /* Sources */,
 				9585F8B526529A0000BD3B82 /* Frameworks */,
@@ -96,9 +96,9 @@
 			);
 			dependencies = (
 			);
-			name = TableViewTest;
+			name = TableViewBasics;
 			productName = TableViewTest;
-			productReference = 9585F8B826529A0000BD3B82 /* TableViewTest.app */;
+			productReference = 9585F8B826529A0000BD3B82 /* TableViewBasics.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +115,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9585F8B326529A0000BD3B82 /* Build configuration list for PBXProject "TableViewTest" */;
+			buildConfigurationList = 9585F8B326529A0000BD3B82 /* Build configuration list for PBXProject "TableViewBasics" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -128,7 +128,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9585F8B726529A0000BD3B82 /* TableViewTest */,
+				9585F8B726529A0000BD3B82 /* TableViewBasics */,
 			);
 		};
 /* End PBXProject section */
@@ -304,12 +304,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VHY8M3BHZD;
-				INFOPLIST_FILE = TableViewTest/Info.plist;
+				INFOPLIST_FILE = TableViewBasics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jeannchuab.TableViewTest;
+				PRODUCT_BUNDLE_IDENTIFIER = jeannchuab.TableViewBasics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,12 +323,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VHY8M3BHZD;
-				INFOPLIST_FILE = TableViewTest/Info.plist;
+				INFOPLIST_FILE = TableViewBasics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jeannchuab.TableViewTest;
+				PRODUCT_BUNDLE_IDENTIFIER = jeannchuab.TableViewBasics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -338,7 +338,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9585F8B326529A0000BD3B82 /* Build configuration list for PBXProject "TableViewTest" */ = {
+		9585F8B326529A0000BD3B82 /* Build configuration list for PBXProject "TableViewBasics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9585F8CA26529A0300BD3B82 /* Debug */,
@@ -347,7 +347,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9585F8CC26529A0300BD3B82 /* Build configuration list for PBXNativeTarget "TableViewTest" */ = {
+		9585F8CC26529A0300BD3B82 /* Build configuration list for PBXNativeTarget "TableViewBasics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9585F8CD26529A0300BD3B82 /* Debug */,
