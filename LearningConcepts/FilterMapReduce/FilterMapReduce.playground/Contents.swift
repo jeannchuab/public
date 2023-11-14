@@ -57,9 +57,9 @@ let recurringRevenue = appPortfolio.map { $0.monthlyPrice * Double($0.users) }.r
 
 
 // CompactMap: Remove nil value form an array
-let nilNumbers = [1, nil, 3, 5, nil, 99, nil, nil]
+let nilNumbers = [nil, "foo", "bar"]
 let nonNilNumbers = nilNumbers.compactMap { $0 }
-//print(nonNilNumbers)
+print(nonNilNumbers)
 
 
 // FlatMap: Makes a two dimensions array became one dimension
@@ -68,7 +68,8 @@ let arrayOfArrays = [[1,2,3],
                      [7,8,9]]
 
 let singleArray = arrayOfArrays.flatMap { $0 }
-print(singleArray)
+//print(singleArray)
+
 
 
 
